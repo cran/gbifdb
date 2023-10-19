@@ -1,5 +1,5 @@
 Package: gbifdb
-Version: 0.1.2
+Version: 1.0.0
 Title: High Performance Interface to 'GBIF'
 Description: A high performance interface to the Global Biodiversity
   Information Facility, 'GBIF'.  In contrast to 'rgbif', which can
@@ -25,19 +25,19 @@ License: Apache License (>= 2)
 Encoding: UTF-8
 ByteCompile: true
 Depends: R (>= 4.0)
-Imports: arrow (>= 6.0.1), duckdb (>= 0.2.9), DBI, dplyr
+Imports: arrow (>= 8.0.0), dplyr, duckdbfs
 Suggests: spelling, dbplyr, testthat (>= 3.0.0), covr, knitr,
-        rmarkdown, aws.s3
+        rmarkdown, minioclient
 URL: https://docs.ropensci.org/gbifdb/,
         https://github.com/ropensci/gbifdb
 BugReports: https://github.com/ropensci/gbifdb
 Language: en-US
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2022-05-19 21:02:47 UTC; cboettig
+Packaged: 2023-10-19 19:47:13 UTC; cboettig
 Author: Carl Boettiger [aut, cre] (<https://orcid.org/0000-0002-1642-628X>)
 Maintainer: Carl Boettiger <cboettig@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-05-21 15:10:02 UTC
+Date/Publication: 2023-10-19 20:30:03 UTC
